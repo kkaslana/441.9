@@ -1,0 +1,114 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+border: 2px solid blue;
+display: inline-block;
+margin: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  background-color: #fcc;
+  color: #500;
+  padding: 0.5rem;
+  display: block;
+}
+
+ .myDiv {
+  border: 5px outset red;
+  background-color: lightblue;    
+  text-align: left;
+}
+.myDiv2 {
+  border: 5px outset rgb(93, 20, 20);
+  background-color: rgb(60, 186, 58);    
+  text-align: left;
+}
+.myDiv3 {
+  border: 5px outset rgb(78, 191, 232);
+  background-color: rgb(206, 214, 49);    
+  text-align: center;
+}
+.myDiv4 {
+  border: 5px outset red;
+  background-color: rgb(31, 166, 211);    
+  text-align: center;
+}
+ body 
+{ -border: 1px solid blue;height: 900px;width:100%;background:linear-gradient(#A8A8A8,#A68064,#A8A8A8); }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+   text-align: center;
+}
+nav li {
+  display: inline-block;
+}
+nav {
+  border: 1px solid #333;
+  margin: 1rem auto;
+  background-color: #eee;
+  
+  border-bottom: 5px solid #00bff3;
+  border-top: 5px solid #00bff3;
+}
+
+  
+
+.parent {
+    position: relative;
+}
+.search {
+    width: 500px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 0px;
+    
+}
+style>
+{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
